@@ -1,0 +1,14 @@
+name: GlorySMP
+version: '2.0.0'
+main: me.glorysmp.weapons.GlorySMPWeapons
+api-version: '1.21.11'
+author: GlorySMP
+description: Glory SMP V2 custom weapons, abilities, cooldowns, and disabled crafting.
+commands:
+  gloryweapon:
+    description: Manage and view Glory SMP weapons
+    usage: /gloryweapon <list|give|info>
+permissions:
+  glory.admin:
+    description: Gives Glory SMP weapons to players
+    default: op
